@@ -1,0 +1,13 @@
+# Declare compose version
+version: '2'
+
+# Define your services
+services:
+  web:  # Main web service
+    build: .    # Directory containing Dockerfile
+    ports:  # Ports to expose
+    - "80:80"
+    - "443:443"
+    volumes:    # Volumes (directories) to mount
+    - ./frontend:/home/docker/code/frontend
+    - ./app:/home/docker/code/app

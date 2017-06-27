@@ -1,0 +1,7 @@
+Dockerfile-dev
+app
+frontend
+*.key
+*.crt
+*.csr
+run-dev.sh
