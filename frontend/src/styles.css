@@ -1,0 +1,209 @@
+@font-face {
+font-family: 'Roboto';
+src: url('fonts/roboto/Roboto-Light-webfont.eot');
+src: url('fonts/roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/roboto/Roboto-Light-webfont.woff') format('woff'),
+     url('fonts/roboto/Roboto-Light-webfont.ttf') format('truetype'),
+     url('fonts/roboto/Roboto-Light-webfont.svg#RobotoRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Roboto-Bold';
+src: url('fonts/roboto/Roboto-BoldCondensed-webfont.eot');
+src: url('fonts/roboto/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+     url('fonts/roboto/Roboto-BoldCondensed-webfont.woff') format('woff'),
+     url('fonts/roboto/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+     url('fonts/roboto/Roboto-BoldCondensed-webfont.svg#RobotoRegular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: 'Roboto-Bold';
+}
+
+p {
+  color: gray;
+  font-family: 'Roboto';
+  font-size: 150%;
+}
+
+/** ./style.css **/
+
+
+/* Jumbotron */
+
+
+.home {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/home-cover.jpg') center / cover;
+  height: 200px;
+}
+
+.updates {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/updates-cover.jpg') center / cover;
+  height: 200px;
+}
+
+.history {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/history-cover.jpg') center / cover;
+  height: 200px;
+}
+
+.about {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/about-cover.jpg') center / cover;
+  height: 200px;
+}
+
+.contact {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/contact-cover.jpg') center / cover;
+  height: 200px;
+}
+
+.error {
+  background: linear-gradient(
+      rgba(50, 75, 127, 0.7),
+      rgba(0, 0, 0, 0)
+    ),
+    url('assets/error-cover.jpg') center / cover;
+  height: 200px;
+}
+
+/* Nav Bar */
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  background: rgba(255, 255, 255, 1);
+  color: black;
+}
+
+.demo-layout-transparent_sub .mdl-layout__header_home,
+.demo-layout-transparent_sub .mdl-layout__drawer-button_home {
+  background: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.demo-layout-transparent_sub .mdl-layout__header,
+.demo-layout-transparent_sub .mdl-layout__drawer-button {
+  background: rgba(255, 255, 255, .7);
+  color: black;
+}
+.mdl-navigation__link:hover {
+    background-color: #4876ff;
+}
+.demo-layout-transparent .mdl-navigation__link,
+.demo-layout-transparent_sub .mdl-navigation__link {
+    color: black;
+}
+
+/* Header Text */
+.header-text{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 75px;
+  color: white;
+  font-size: 700%;
+}
+/* Content Wrapper */
+body {
+  background-color: #f2f2f2;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page {
+  width: 80%;
+  padding: 10%;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.post-button {
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  box-shadow: 5px 5px 10px #888888;
+}
+
+.post-button:hover {
+    background-color: #f5f5f5;
+    box-shadow: 3px 3px 8px #888888;
+}
+
+
+@media screen and (max-width: 775px) {
+    .header-text{
+        font-size: 530%;
+    }
+}
+@media screen and (max-width: 700px) {
+      .mdl-layout-title, .mdl-layout-spacer {
+          display: none;
+      }
+}
+@media screen and (max-width: 600px) {
+    .demo-layout-transparent .mdl-layout__header .mdl-navigation{
+        
+    }
+    .header-text{
+        font-size: 400%;
+    }
+}
+@media screen and (max-width: 500px) {
+     .mdl-layout__header-row {
+        margin: 0;
+        padding: 0;
+    }
+    .header-text{
+        font-size: 380%;
+    }
+}
+@media screen and (max-width: 430px) {
+     .mdl-layout-title, .mdl-navigation__link {
+        font-size: 80%;
+    }
+    .header-text{
+        font-size: 300%;
+    }
+}
+@media screen and (max-width: 360px) {
+     .mdl-layout__header-row {
+        margin: 0;
+        padding: 0;
+    }
+    .header-text{
+        font-size: 290%;
+    }
+};
+

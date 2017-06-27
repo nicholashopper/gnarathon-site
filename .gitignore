@@ -1,6 +1,4 @@
 Dockerfile-dev
-app
-frontend
 *.key
 *.crt
 *.csr
