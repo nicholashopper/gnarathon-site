@@ -30,7 +30,15 @@ import { Component } from '@angular/core';
       <p>Currently everything here is under construction. 
       To learn more about what we are up to, check our <a href="http://gnarathon.com/updates">updates</a>.
       To keep up with the new changes here, check our <a href="https://github.com/nicholashopper/gnarathon-site">github</a>. 
-  </div>`
+  
+      <link href="http://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+  <ul class="juicer-feed" data-feed-id="gnarathon"><h1 class="referral"></h1></ul>
+  </div>
+
+  
+  
+
+  `
 })
 
 // App Component class
